@@ -12,12 +12,9 @@
     "react-onclickoutside": "^6.9.0",
     "react-router-dom": "^5.1.2",
     "react-select": "^3.1.0",
-<<<<<<< HEAD
-=======
     "react-vertical-timeline-component": "^2.5.0",
     "recharts": "^1.8.5",
     "rsuite": "^4.3.3",
->>>>>>> 5f8708e0f0eb6a917c40c57f102b8fae95a64a1d
     "semantic-ui-css": "^2.4.1",
     "semantic-ui-react": "^0.88.2"
   }

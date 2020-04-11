@@ -669,17 +669,6 @@ def update_credit_card():
     return ({}, 200)
 
 
-@app.route("/locations")
-@login_required
-def get_locations():
-    keyword = request.args.get('keyword')
-    conn = get_db()
-    cursor = conn.cursor()
-    cursor.execute(
-        "SELECT location FROM Locations WHERE location ILIKE '%s%%';" % keyword)
-    result = cursor.fetchmany(10)
-    return ({'result': result}, 200)
-
 
 @app.route("/recent_locations")
 @login_required
